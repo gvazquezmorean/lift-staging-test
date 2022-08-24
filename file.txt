@@ -3,4 +3,3 @@ Example file
 Add a markdown comment here
 Add a markdown code snippet here
 
-Adding more code here get a sync event
