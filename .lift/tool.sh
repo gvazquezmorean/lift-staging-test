@@ -8,16 +8,11 @@ function version() {
 }
 
 function applicable() {
-    echo "true"
+    echo "true" "1 par"
 }
 
 function run() {
-    echo "[{ \"type\": \"Hello Amy\", \
-            \"message\": \"Lift is analyzing commit $commit\", \
-            \"file\": \"file.txt\", \
-            \"line\": 0, \
-            \"details_url\": \"https://example.com/#example\" \
-          }]"
+    echo "[]"
 }
 
 if [[ "$cmd" = "run" ]] ; then 
