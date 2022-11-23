@@ -37,7 +37,8 @@ def process_file(filename):
             if("markdown code snippet" in line):
                 tool_notes.append(line_to_tool_note(file_display, current_line, "```rust\nlet best_programming_language = \"🦀\";\n```"))
     
-    return tool_notes
+    # return tool_notes
+    return []
 
 def line_to_tool_note(filename, line_number, message):
     return {
