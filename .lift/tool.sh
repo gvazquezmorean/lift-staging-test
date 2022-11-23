@@ -9,6 +9,7 @@ function version() {
 
 function applicable() {
     echo "true" "1 par"
+    echo "true" "2 par"
 }
 
 function run() {
