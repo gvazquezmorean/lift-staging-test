@@ -9,6 +9,7 @@ function version() {
 
 function applicable() {
     printf "true\n" "1do par"
+    printf "true\n" "2do par"
     echo "true" "1 par"
     echo "true" "2 $par"
 }
