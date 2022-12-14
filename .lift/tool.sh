@@ -11,6 +11,11 @@ function applicable() {
     printf "true\n"
     echo "true" "1 par"
     echo "true" "2 par"
+    echo "true" "$3 par"
+    echo "true" "$4 par"
+    echo "true" "$5 par"
+    echo "true" "$6 par"
+    echo "true" "$7 par"
 }
 
 function run() {
